@@ -12,7 +12,7 @@ UBLOG
 
 ## 💻 Projeto
 
-UBLOG é  um blog perfeito para  desenvolvedores ficarem atualizados e podendo conferir as novidades tecnologia. 
+UBLOG é  um blog perfeito para desenvolvedores ficarem atualizados e podendo conferir as novidades sobre tecnologia. 
 
 
 ## 🧪 Tecnologias
