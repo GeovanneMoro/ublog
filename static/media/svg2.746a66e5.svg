@@ -1,0 +1,11 @@
+<svg width="140" height="45" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1">
+ <defs>
+  <filter id="svg_16_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <text filter="url(#svg_16_blur)" x="0.00781" font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="'Poppins SemiBold'" font-size="32" id="svg_16" y="34" stroke-width="0" stroke="#563c3c" fill="#36436b">U B L O G</text>
+ </g>
+</svg>
