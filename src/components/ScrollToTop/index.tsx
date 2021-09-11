@@ -30,6 +30,7 @@ const ScrollToTop: React.FC = (): JSX.Element => {
           <img
             src="https://i.postimg.cc/44Ytsk8Z/top-arrow-emoj.png"
             alt="Go to top"
+            loading="lazy"
           />
         </div>
       )}

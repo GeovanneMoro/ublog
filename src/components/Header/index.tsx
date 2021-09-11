@@ -10,7 +10,7 @@ const Header: React.FC = (): JSX.Element => {
     <>
       <HeaderContainer>
         <Link to="/">
-          <img src={Logo} />
+          <img src={Logo} loading="lazy" />
         </Link>
       </HeaderContainer>
       <Menu />

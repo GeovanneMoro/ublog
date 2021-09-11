@@ -22,7 +22,7 @@ const HomePage: React.FC = (): JSX.Element => {
         <title>UBLOG | Bem-vindo ao nosso site</title>
       </Helmet>
       <Container>
-        <img src={ImageManPC} alt="" />
+        <img src={ImageManPC} alt="Homem no computador" loading="lazy" />
         <div>
           <h1>&gt; Olá, mundo!</h1>
           <p>

@@ -17,7 +17,7 @@ const SobrePage: React.FC = (): JSX.Element => {
         <Title>Sobre a UBLOG</Title>
         <div>
           <figure className="image-tech">
-            <img src={ImageTech} alt="Imagem tech" />
+            <img src={ImageTech} alt="Imagem tech" loading="lazy" />
           </figure>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis

@@ -9,7 +9,7 @@ const Footer: React.FC = (): JSX.Element => {
     <FooterContainer>
       <Content>
         <div className="flex">
-          <img src={Logo} alt="UBLOG" />
+          <img src={Logo} alt="UBLOG" loading="lazy" />
           <RedesSociais />
         </div>
         <div className="flex">

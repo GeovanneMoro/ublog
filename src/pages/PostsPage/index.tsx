@@ -48,16 +48,22 @@ const PostsPage: React.FC = (): JSX.Element => {
         <span>Error in fetching data ...</span>
       ) : (
         <Lista>
-          {publications.map(({ title, body, metadata }) => (
-            <Link key={title} to={`/posts/${title}`}>
-              <PostItem
-                title={title}
-                body={body}
-                publishedAt={metadata.publishedAt}
-                authorId={metadata.authorId}
-              />
-            </Link>
-          ))}
+          {publications.map(({ title, body, metadata }) => {
+            const preKebab = title.split(' ');
+
+            const kebabCase = preKebab.join('-').toLowerCase();
+
+            return (
+              <Link key={title} to={`/posts/${kebabCase}`}>
+                <PostItem
+                  title={title}
+                  body={body}
+                  publishedAt={metadata.publishedAt}
+                  authorId={metadata.authorId}
+                />
+              </Link>
+            );
+          })}
         </Lista>
       )}
     </MasterLayout>

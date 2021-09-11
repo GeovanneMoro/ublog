@@ -29,7 +29,13 @@ const PostPage = (): JSX.Element => {
   );
 
   const [publication] = publications.filter((pub) => {
-    if (pub.title.includes(title2)) {
+    const preKebab = pub.title.split(' ');
+
+    const kebabCase = preKebab.join('-').toLowerCase();
+
+    console.log(`Aqui ${kebabCase}`);
+
+    if (kebabCase.includes(title2)) {
       return true;
     } else {
       return false;

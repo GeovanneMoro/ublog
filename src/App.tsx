@@ -9,7 +9,7 @@ const App: React.FC = (): JSX.Element => {
   return (
     <>
       <GlobalStyle />
-      <BrowserRouter>
+      <BrowserRouter basename="/ublog">
         <Routes />
       </BrowserRouter>
     </>
