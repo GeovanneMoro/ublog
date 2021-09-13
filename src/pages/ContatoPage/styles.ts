@@ -45,7 +45,7 @@ const Container = styled.div`
     textarea::placeholder {
       font-size: 14px;
       font-family: 'Roboto Slab', serif;
-      color: #ccc;
+      color: ${shade(0.25, '#CCC')};
     }
 
     textarea {
