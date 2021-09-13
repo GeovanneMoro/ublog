@@ -1,21 +1,24 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 
-import MenuHamburguer from '../../assets/menu.svg';
+import { MenuContext } from '../../contexts/MenuContext';
+
 import { Container, Content } from './styles';
 
 const Menu: React.FC = (): JSX.Element => {
-  const [active, setActive] = useState(false);
+  const { active } = useContext(MenuContext);
+
   const menuActiveClass = active ? 'active' : '';
 
-  const handleClickMenu = () => setActive(!active);
+  // const [active, setActive] = useState(false);
+  // const handleClickMenu = () => setActive(!active);
 
   return (
     <Container>
       <Content>
-        <button className="btn-mobile" onClick={handleClickMenu}>
+        {/* <button className="btn-mobile" onClick={toogleActive}>
           <img src={MenuHamburguer} alt="menu-hamburguer" />
-        </button>
+        </button> */}
         <ul className={`menu-principal ${menuActiveClass}`}>
           <li>
             <NavLink to="/" activeClassName="active" exact>

@@ -23,7 +23,7 @@ const PostItem: React.FC<IPostItemProps> = ({
         <p>{authorId}</p>
       </div>
       <p>{body}</p>
-      <span className="lnk-destaque">Leia Mais</span>
+      <span>Leia Mais</span>
     </Post>
   );
 };

@@ -29,6 +29,14 @@ const Content = styled.div`
     .flex {
       display: block;
       text-align: center;
+
+      img {
+        margin-bottom: 15px;
+      }
+
+      address {
+        margin-bottom: 10px;
+      }
     }
   }
 `;

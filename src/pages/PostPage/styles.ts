@@ -22,7 +22,7 @@ const Content = styled.div`
 
   button {
     background-color: #36436b;
-    padding: 5px 30px;
+    padding: 15px 30px;
     border: 0;
     font-weight: bold;
     color: white;
@@ -36,6 +36,10 @@ const Content = styled.div`
       background-color: ${shade(0.25, '#36436b')};
       box-shadow: 0 3px 6px 0 rgb(0 0 0 / 50%);
     }
+  }
+
+  @media (max-width: 800px) {
+    text-align: center;
   }
 `;
 

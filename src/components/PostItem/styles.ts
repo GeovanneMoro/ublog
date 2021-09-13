@@ -29,6 +29,10 @@ const Post = styled.li`
     align-items: center;
   }
 
+  span {
+    color: #becaee;
+  }
+
   &:hover {
     background-color: #becaee;
     box-shadow: 0 3px 6px 0 rgb(0 0 0 / 60%);
@@ -36,6 +40,16 @@ const Post = styled.li`
 
     span {
       text-decoration: underline;
+      color: #fff;
+      font-weight: 600;
+    }
+  }
+
+  @media (max-width: 800px) {
+    padding: 10px;
+
+    h3 {
+      font-size: 18px;
     }
   }
 `;

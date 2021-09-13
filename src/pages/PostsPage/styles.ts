@@ -9,6 +9,10 @@ const Lista = styled.ul`
     overflow: hidden;
     text-overflow: ellipsis;
   }
+
+  @media (max-width: 800px) {
+    margin: 0;
+  }
 `;
 
 export { Lista };

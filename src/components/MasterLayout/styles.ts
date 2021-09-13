@@ -21,22 +21,16 @@ const Content = styled.main`
   max-width: 1140px;
   width: 100%;
 
-  .image-tech {
-    margin: 0 30px 0 0;
-    float: left;
-
-    img {
-      vertical-align: middle;
-      border-style: none;
-    }
-  }
-
   p {
     margin: 15px 0;
     color: #36436b;
     letter-spacing: 0.12em;
     font-size: 16px;
     font-weight: bold;
+  }
+
+  @media (max-width: 800px) {
+    padding: 15px;
   }
 `;
 

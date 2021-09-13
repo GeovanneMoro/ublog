@@ -39,6 +39,14 @@ const Container = styled.aside`
       }
     }
   }
+
+  @media (max-width: 800px) {
+    display: block;
+
+    strong {
+      line-height: 40px;
+    }
+  }
 `;
 
 export { Container };

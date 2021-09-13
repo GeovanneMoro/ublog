@@ -59,6 +59,26 @@ const Container = styled.div`
       box-shadow: 0 3px 6px 0 rgb(0 0 0 / 50%);
     }
   }
+
+  @media (max-width: 800px) {
+    display: block;
+    text-align: center;
+
+    h1 {
+      font-size: 3.25rem;
+      margin-top: 1rem;
+    }
+
+    p {
+      font-size: 1.25rem;
+      margin: 1.5rem 0;
+    }
+
+    img {
+      width: 100%;
+      height: 250px;
+    }
+  }
 `;
 
 export { Container };

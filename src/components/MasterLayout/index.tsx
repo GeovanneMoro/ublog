@@ -1,4 +1,5 @@
 import React from 'react';
+import { MenuContextProvider } from '../../contexts/MenuContext';
 
 import { Footer } from '../Footer';
 import { Header } from '../Header';
@@ -12,7 +13,9 @@ interface IMasterLayout {
 const MasterLayout: React.FC<IMasterLayout> = ({ children }): JSX.Element => {
   return (
     <Container>
-      <Header />
+      <MenuContextProvider>
+        <Header />
+      </MenuContextProvider>
       <Content>{children}</Content>
       <Footer />
       <ScrollToTop />

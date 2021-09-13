@@ -10,6 +10,11 @@ const Titulo = styled.h1`
   padding-bottom: 8px;
   margin: 20px 0;
   border-bottom: 2px solid #36436b;
+
+  @media (max-width: 800px) {
+    font-size: 28px;
+    margin-top: 10px;
+  }
 `;
 
 export { Titulo };

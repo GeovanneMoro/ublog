@@ -84,6 +84,12 @@ const Container = styled.div`
       font-weight: bold;
     }
   }
+
+  @media (max-width: 800px) {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export { Container };

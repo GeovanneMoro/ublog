@@ -43,7 +43,7 @@ const Container = styled.nav`
 
   @media (max-width: 800px) {
     display: block;
-    padding: 10px 0;
+    padding: 0;
 
     .btn-mobile {
       display: block;
